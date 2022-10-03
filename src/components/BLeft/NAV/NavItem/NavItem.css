@@ -1,0 +1,27 @@
+.nav .item {
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 10px;
+}
+.nav .item p {
+    margin: 0;
+    /* color: #bbbdc9; */
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: 0.1s;
+    opacity: 0.6;
+    transform-origin: left;
+}
+.item:hover {
+    background: #444c61;
+}
+.item:hover p {
+    margin-left: 30px;
+    opacity: 0.8;
+}
+.active .item p {
+    opacity: 1;
+    margin-left: 40px;
+}

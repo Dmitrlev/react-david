@@ -1,0 +1,99 @@
+@font-face {
+	font-family: "FontHeader";
+	src: url("Hipstelvetica_Bold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+}
+.header {
+  cursor: crosshair;
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding: 15px 0px;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+	background-blend-mode: screen;
+	background: linear-gradient(#41152f, transparent), linear-gradient(90deg, #375dc0, transparent), linear-gradient(-90deg, #a25cff, transparent);
+}
+.logo {
+  font-family: FontHeader, sans-serif;
+  margin: 0;
+  color: rgb(17, 36, 106);
+  font-size: 30px;
+  animation-name: HEADERlogoANIMATE;
+  animation-duration: 10s;
+  margin: 0;
+  animation-iteration-count: infinite;
+}
+@keyframes HEADERlogoANIMATE {
+  0%{color: rgb(65, 54, 10);}
+  15%{color: rgb(48, 73, 14);}
+  30%{color: rgb(17, 55, 10);}
+  45%{color: rgb(15, 53, 70);}
+  60%{color: rgb(18, 21, 67);}
+  75%{color: rgb(45, 11, 53);}
+  90%{color: rgb(53, 11, 22);}
+  100%{color: rgb(65, 54, 10);}
+}
+@keyframes HEADERlogoANIMATE_off {
+}
+.r3fu4 {
+  transition: 0.2s;
+  opacity: 0.7;
+}
+.nun_1:hover {
+  color: rgb(255, 1, 1);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}
+.nun_2:hover {
+  color: rgb(248, 130, 3);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}
+.nun_3:hover {
+  color: rgb(233, 254, 0);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}
+.nun_4:hover {
+  color: rgb(123, 255, 0);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}
+.nun_5:hover {
+  color: rgb(0, 255, 123);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}
+.nun_6:hover {
+  color: rgb(0, 255, 221);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}
+.nun_7:hover {
+  color: rgb(0, 136, 255);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}
+.nun_8:hover {
+  color: rgb(0, 190, 253);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}
+.nun_9:hover {
+  color: rgb(21, 0, 253);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}
+.nun_10:hover {
+  color: rgb(255, 0, 221);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}
+.nun_11:hover {
+  color: rgb(255, 0, 115);
+  opacity: 1;
+  animation-name: HEADERlogoANIMATE_off;
+}

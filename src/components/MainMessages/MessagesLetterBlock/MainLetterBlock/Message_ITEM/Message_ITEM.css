@@ -1,0 +1,51 @@
+.Message_ITEM_block {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  cursor: pointer;
+  padding: 10px 0px;
+  padding-left: 50px;
+  transition: background 0.1s;
+}
+.Message_ITEM_block p {
+  align-self: center;
+  margin: 0;
+  margin-left: 20px;
+  width: 100%;
+}
+.Message_ITEM_block span {
+  color: #ffffff7d;
+  font-weight: 900;
+}
+.Message_ITEM_block_foto {
+  position: relative;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.Message_ITEM_block_foto img {
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+}
+.check {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.Message_ITEM_block:hover .check {
+  opacity: 0.5;
+  transition: opacity 0.1s;
+}
+.style_choice_message {
+  background: #525a70;
+}
+.checkRef {
+  opacity: 1;
+}

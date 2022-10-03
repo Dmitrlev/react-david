@@ -1,0 +1,7 @@
+.body_left {
+  display: flex;
+  flex-direction: column;
+  background: #252934;
+  margin-right: 5px;
+  box-shadow: 7px 2px 14px 0px #04050e78;
+} 

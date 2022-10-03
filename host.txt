@@ -1,0 +1,63 @@
+-----------------------------------------------------
+
+http://localhost:3000/
+
+-----------------------------------------------------
+import M_K from './../FOTO/M_K.jpg';
+import L_C from './../FOTO/L_C.jpg';
+import D_C from './../FOTO/D_C.jpg';
+import D_R from './../FOTO/D_R.jpg';
+import D_D from './../FOTO/D_D.jpg';
+
+	  {
+          display: '',
+          SizeAvatar: "w",
+          foto: L_C,
+          id: 'L_C_FCHAT',
+          name: "Диана",
+          surname: 'Чопко',
+          NewMessagesChange: '',
+          MeSSeges: [],
+        },
+        {
+          display: '',
+          SizeAvatar: "w",
+          foto: D_C,
+          id: 'D_C_FCHAT',
+          name: "Дмитрий",
+          surname: 'Чопко',
+          NewMessagesChange: '',
+          MeSSeges: [],
+        },
+        {
+          display: '',
+          SizeAvatar: "w",
+          foto: D_R,
+          id: 'D_R_FCHAT',
+          name: "Даник",
+          surname: 'Рудьман',
+          NewMessagesChange: '',
+          MeSSeges: [],
+        },
+        {
+          display: '',
+          SizeAvatar: "w",
+          foto: D_D,
+          id: 'D_D_FCHAT',
+          name: "Дмитрий",
+          surname: 'Филипчук',
+          NewMessagesChange: '',
+          MeSSeges: [],
+        },
+
+        {
+          display: '',
+          SizeAvatar: "w",
+          foto: M_K,
+          id: 'M_K_FCHAT',
+          name: "Максим",
+          surname: 'Колядюк',
+          NewMessagesChange: '',
+          MeSSeges: [],
+        },
+

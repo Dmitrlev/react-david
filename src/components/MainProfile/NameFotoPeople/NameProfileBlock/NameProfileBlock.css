@@ -1,0 +1,13 @@
+.name-information_profile {
+    position: relative;
+    margin-left: 30px;
+    height: 100%;
+    align-self: center;
+}
+.name-information_profile p {
+    margin: 0px;
+    position: relative;
+    color: #d0d0d0;
+    font-size: 40px;
+    font-weight: 900;
+}

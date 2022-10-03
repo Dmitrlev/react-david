@@ -1,0 +1,51 @@
+.Item_Chat_block {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.069);
+  display: flex;
+  align-items: center;
+}
+.Item_Chat_block p {
+  color: rgba(255, 255, 255, 0.526);
+  font-weight: 500;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.Chat_main_block_foto {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0px 10px;
+  margin-right: 15px;
+}
+.Chat_main_block_foto img {
+  transition: 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0.5;
+  transform: translate(-50%, -50%);
+}
+.Item_Chat_block:hover {
+  background: rgba(255, 255, 255, 0.115);
+}
+.Item_Chat_block:hover p {
+  color: rgba(255, 255, 255, 0.809);
+}
+
+.Item_Chat_block:hover .fotoChatITEM {
+  opacity: 1;
+}
+.active {
+  background: rgba(255, 255, 255, 0.115);
+}
+.active p {
+  color: rgba(255, 255, 255, 0.809);
+}
+.active .fotoChatITEM {
+  opacity: 1;
+}

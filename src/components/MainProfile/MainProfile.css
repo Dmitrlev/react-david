@@ -1,0 +1,8 @@
+.body_right_profile {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  min-width: 1000px;
+  overflow-y: scroll;
+  background: #323846;
+}

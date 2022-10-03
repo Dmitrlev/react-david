@@ -1,0 +1,25 @@
+.Messages_chat_main {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 5px;
+  padding: 5px 0px;
+  box-sizing: border-box;
+}
+.Messages_chat_main {
+  scrollbar-width: thin;
+  scrollbar-color: #fffefe38 #ffffff00;
+}
+.Messages_chat_main::-webkit-scrollbar {
+  width: 5px;
+}
+.Messages_chat_main::-webkit-scrollbar-track {
+  background: #ffffff00;
+}
+.Messages_chat_main::-webkit-scrollbar-thumb {
+  background-color: #ffffff38;
+  border-radius: 20px;
+}

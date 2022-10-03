@@ -1,0 +1,19 @@
+.online_block {
+    display: flex;
+    align-items: center;
+}
+.online_block p{
+    position: relative;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff38;
+}
+.online_block div {
+    position: relative;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: green;
+    margin-right: 5px;
+}

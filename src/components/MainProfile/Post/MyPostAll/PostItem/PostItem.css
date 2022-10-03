@@ -1,0 +1,28 @@
+
+.My_Post_Item_foto_block {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.My_Post_Item {
+    position: relative;
+    display: flex;
+}
+.My_Post_Item_foto_block img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.My_Post_Item p {
+    position: relative;
+    margin: 0;
+    margin-left: 20px;
+    width: 100%;
+    max-width: 500px;
+    align-self: center;
+    color: #a5a5a5;
+}

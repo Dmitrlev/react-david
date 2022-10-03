@@ -1,0 +1,10 @@
+.Messages_chat_block {
+  position: relative;
+  height: 100vh;
+  min-width: 400px;
+  width: auto;
+  background: #1c1e2b;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
